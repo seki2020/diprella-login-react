@@ -1,0 +1,48 @@
+body{
+    background-color:#777;
+}
+.container{
+    position: relative;
+    margin: 100px auto;
+    width: 800px;
+    
+}
+.card-container{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aqua{
+    background-color: #87ab7e;
+    width: 36%;
+    color: #fff;
+    text-align: center;
+}
+.center-empty{
+    background-color: #87ab7e;
+    width: 28%;
+}
+.card{
+    background-color: #fff;
+    width: 64%;
+    color: #87ab7e;
+    text-align: center;
+}
+.card-empty{
+    background-color:#fff;
+    width: 36%;
+}
+.left{
+    border-radius: 10px 0 0 10px;
+}
+.right{
+    border-radius: 0 10px 10px 0;
+}
+
+.mask{
+    clip-path: inset(0 298px 0 0);
+}
